@@ -1,24 +1,22 @@
-# ISPL_Freshman_practice
+# ISPL_Freshman_practice_
 
 <MNIST classification>
 
-1)
+ 
+I modified some of the skeleton code, the usage is as below.
 
-download all files including mnist.zip
+1) create a new train set and a validation set
+python main.py --process=write_valid --imagedir=./mnist/train
 
-DO NOT use tensorflow.examples.tutorials.mnist library
+2) create a new test set
+python main.py --process=write_test --imagedir=./mnist/test
 
-2)
+3) train
+python main.py --process=train
 
-fill in the TODOs
+4) test
+python main.py --process=test
 
-you should modify main.py code
-
-3)
-
-upload your modified codes and performance-written text file(result.txt)
-
-in your own repository
 
 usage: 
 
