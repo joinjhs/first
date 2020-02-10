@@ -5,6 +5,9 @@
  
 I modified some of the skeleton code, the usage is as below.
 
+0) unzip mnist.zip and create a new folder "tfrecord" to store tfrecord files.
+
+
 1) create a new train set and a validation set
 
 python main.py --process=write_valid --imagedir=./mnist/train
